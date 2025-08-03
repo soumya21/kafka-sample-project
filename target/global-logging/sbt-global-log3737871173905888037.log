@@ -1,0 +1,189 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] compiling 7 Scala sources to C:\IJ\kafka-scala-project\target\scala-2.12\classes ...
+[warn] C:\IJ\kafka-scala-project\src\main\scala\KafkaFlinkConsumer.scala:26:31: imported `Record' is permanently hidden by definition of object Record
+[warn] import org.apache.flink.types.Record
+[warn]                               ^
+[warn] there was one deprecation warning; re-run with -deprecation for details
+[warn] two warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[error] 14 errors were encountered during merge
+[error] java.lang.RuntimeException: deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-all\4.1.87.Final\netty-all-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final-linux-x86_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final-linux-aarch_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final-osx-aarch_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final-osx-x86_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec-http2\4.1.87.Final\netty-codec-http2-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec-socks\4.1.87.Final\netty-codec-socks-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-handler-proxy\4.1.87.Final\netty-handler-proxy-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar:META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\logging\log4j\log4j-1.2-api\2.19.0\log4j-1.2-api-2.19.0.jar:META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\parquet\parquet-jackson\1.12.3\parquet-jackson-1.12.3.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\tukaani\xz\1.9\xz-1.9.jar:META-INF/versions/9/module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-vector\11.0.0\arrow-vector-11.0.0.jar:arrow-git.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-memory-netty\11.0.0\arrow-memory-netty-11.0.0.jar:arrow-git.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-format\11.0.0\arrow-format-11.0.0.jar:arrow-git.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-memory-core\11.0.0\arrow-memory-core-11.0.0.jar:arrow-git.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\spark\spark-core_2.12\3.4.1\spark-core_2.12-3.4.1.jar:google/protobuf/any.proto
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar:google/protobuf/any.proto
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\spark\spark-core_2.12\3.4.1\spark-core_2.12-3.4.1.jar:google/protobuf/descriptor.proto
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar:google/protobuf/descriptor.proto
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\spark\spark-core_2.12\3.4.1\spark-core_2.12-3.4.1.jar:google/protobuf/empty.proto
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar:google/protobuf/empty.proto
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-clients\3.5.1\kafka-clients-3.5.1.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-server-common\3.0.0\kafka-server-common-3.0.0.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-raft\3.0.0\kafka-raft-3.0.0.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-storage\3.0.0\kafka-storage-3.0.0.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-storage-api\3.0.0\kafka-storage-api-3.0.0.jar:kafka/kafka-version.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\dataformat\jackson-dataformat-csv\2.12.3\jackson-dataformat-csv-2.12.3.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\ning\compress-lzf\1.1.2\compress-lzf-1.1.2.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\threeten\threeten-extra\1.7.1\threeten-extra-1.7.1.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\jakarta\ws\rs\jakarta.ws.rs-api\2.1.6\jakarta.ws.rs-api-2.1.6.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar:module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/Log.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/Log.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/LogFactory.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/LogFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] 	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:143)
+[error] 	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:25)
+[error] 	at sbtassembly.Assembly$.x$1$1(Assembly.scala:23)
+[error] 	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:23)
+[error] 	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:23)
+[error] 	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:68)
+[error] 	at sbtassembly.Assembly$.inputs$1(Assembly.scala:58)
+[error] 	at sbtassembly.Assembly$.apply(Assembly.scala:85)
+[error] 	at sbtassembly.Assembly$.$anonfun$assemblyTask$1(Assembly.scala:244)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:750)
+[error] (assembly) deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-all\4.1.87.Final\netty-all-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final-linux-x86_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final-linux-aarch_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final-osx-aarch_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final-osx-x86_64.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec-http2\4.1.87.Final\netty-codec-http2-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-codec-socks\4.1.87.Final\netty-codec-socks-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-handler-proxy\4.1.87.Final\netty-handler-proxy-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar:META-INF/io.netty.versions.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar:META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\logging\log4j\log4j-1.2-api\2.19.0\log4j-1.2-api-2.19.0.jar:META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\parquet\parquet-jackson\1.12.3\parquet-jackson-1.12.3.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar:META-INF/versions/9/module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\tukaani\xz\1.9\xz-1.9.jar:META-INF/versions/9/module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-vector\11.0.0\arrow-vector-11.0.0.jar:arrow-git.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-memory-netty\11.0.0\arrow-memory-netty-11.0.0.jar:arrow-git.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-format\11.0.0\arrow-format-11.0.0.jar:arrow-git.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\arrow\arrow-memory-core\11.0.0\arrow-memory-core-11.0.0.jar:arrow-git.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\spark\spark-core_2.12\3.4.1\spark-core_2.12-3.4.1.jar:google/protobuf/any.proto
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar:google/protobuf/any.proto
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\spark\spark-core_2.12\3.4.1\spark-core_2.12-3.4.1.jar:google/protobuf/descriptor.proto
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar:google/protobuf/descriptor.proto
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\spark\spark-core_2.12\3.4.1\spark-core_2.12-3.4.1.jar:google/protobuf/empty.proto
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\protobuf\protobuf-java\3.19.3\protobuf-java-3.19.3.jar:google/protobuf/empty.proto
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-clients\3.5.1\kafka-clients-3.5.1.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-server-common\3.0.0\kafka-server-common-3.0.0.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-raft\3.0.0\kafka-raft-3.0.0.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-storage\3.0.0\kafka-storage-3.0.0.jar:kafka/kafka-version.properties
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\apache\kafka\kafka-storage-api\3.0.0\kafka-storage-api-3.0.0.jar:kafka/kafka-version.properties
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\dataformat\jackson-dataformat-csv\2.12.3\jackson-dataformat-csv-2.12.3.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\ning\compress-lzf\1.1.2\compress-lzf-1.1.2.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\threeten\threeten-extra\1.7.1\threeten-extra-1.7.1.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\jakarta\ws\rs\jakarta.ws.rs-api\2.1.6\jakarta.ws.rs-api-2.1.6.jar:module-info.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar:module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/Log.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/Log.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/LogConfigurationException.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/LogFactory.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/LogFactory.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/impl/NoOpLog.class
+[error] deduplicate: different file contents found in the following:
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] C:\IJ\kafka-scala-project\null\Coursier\cache\v1\https\artifactory.internal.cba\maven-central\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar:org/apache/commons/logging/impl/SimpleLog.class
+[error] Total time: 186 s (03:06), completed 9 Jan, 2025 3:36:59 PM
+[debug] > Exec(idea-shell, None, None)

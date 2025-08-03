@@ -1,0 +1,106 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\guptas76\AppData\Local\Temp\idea10.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\guptas76\AppData\Local\Temp\idea10.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_431)
+[debug] Load.defaultLoad until apply took 537.620399ms
+[debug]           Load.loadUnit: plugins took 71.6984ms
+[debug]           Load.loadUnit: defsScala took 0.2374ms
+[debug] [Loading] Scanning directory C:\IJ\kafka-scala-project\project
+[debug]             Load.loadUnit: mkEval took 4.9715ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\IJ\kafka-scala-project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.272199 ms
+[info] loading settings for project kafka-scala-project-build from assembly.sbt,plugins.sbt,idea10.sbt ...
+[debug]               Load.resolveProject(kafka-scala-project-build) took 52.887299ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id kafka-scala-project-build, base: C:\IJ\kafka-scala-project\project, plugins: List(<none>))) took 106.138299ms
+[debug] [Loading] Done in C:\IJ\kafka-scala-project\project, returning: (kafka-scala-project-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 329.833601ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.836901ms
+[debug]         Load.loadUnit(file:/C:/IJ/kafka-scala-project/project/, ...) took 413.0532ms
+[debug]       Load.apply: load took 598.309799ms
+[debug]       Load.apply: resolveProjects took 7.986199ms
+[debug]       Load.apply: finalTransforms took 60.7172ms
+[debug]       Load.apply: config.delegates took 7.975099ms
+[debug]       Load.apply: Def.make(settings)... took 468.441201ms
+[debug]       Load.apply: structureIndex took 89.5513ms
+[debug]       Load.apply: mkStreams took 2.319ms
+[info] loading project definition from C:\IJ\kafka-scala-project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] 
+[warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+[warn] 		com.eed3si9n:sbt-assembly:1.1.2 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading com.eed3si9n:sbt-assembly;sbtVersion=1.0;scalaVersion=2.12:1.1.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\guptas76\.ivy2\localcom.eed3si9n\sbt-assembly\scala_2.12\sbt_1.0\1.1.2\ivys\ivy.xml
+[error]   not found: C:\Users\guptas76\.m2\repository\com\eed3si9n\sbt-assembly_2.12_1.0\1.1.2\sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/maven-central/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/analyticsinformation-omnia-ivy/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/analyticsinformation-omnia-ivy/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/ivy-1.1.2.xml
+[error]   not found: https://artifactory.internal.cba/omnia-releases/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/omnia-dependencies/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   unauthorized: https://artifactory.internal.cba/applicationinfrastructure-cspr-maven/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom (Artifactory Realm)
+[error]   not found: https://artifactory.internal.cba/cloudera/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/scalasbt/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/1.1.2/ivys/ivy.xml
+[error]   not found: https://artifactory.internal.cba/io.jfrog.scala/artifactory/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/1.1.2/ivys/ivy.xml
+[error]   unauthorized: https://artifactory.internal.cba/gist-maven/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom (Artifactory Realm)
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3486)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:750)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading com.eed3si9n:sbt-assembly;sbtVersion=1.0;scalaVersion=2.12:1.1.2
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\guptas76\.ivy2\localcom.eed3si9n\sbt-assembly\scala_2.12\sbt_1.0\1.1.2\ivys\ivy.xml
+[error]   not found: C:\Users\guptas76\.m2\repository\com\eed3si9n\sbt-assembly_2.12_1.0\1.1.2\sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/maven-central/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/analyticsinformation-omnia-ivy/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/analyticsinformation-omnia-ivy/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/ivy-1.1.2.xml
+[error]   not found: https://artifactory.internal.cba/omnia-releases/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/omnia-dependencies/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   unauthorized: https://artifactory.internal.cba/applicationinfrastructure-cspr-maven/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom (Artifactory Realm)
+[error]   not found: https://artifactory.internal.cba/cloudera/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom
+[error]   not found: https://artifactory.internal.cba/scalasbt/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/1.1.2/ivys/ivy.xml
+[error]   not found: https://artifactory.internal.cba/io.jfrog.scala/artifactory/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/1.1.2/ivys/ivy.xml
+[error]   unauthorized: https://artifactory.internal.cba/gist-maven/com/eed3si9n/sbt-assembly_2.12_1.0/1.1.2/sbt-assembly-1.1.2.pom (Artifactory Realm)
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

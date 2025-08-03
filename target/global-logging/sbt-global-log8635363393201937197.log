@@ -1,0 +1,11 @@
+[debug] > Exec(clear(), None, None)
+[error] Expected ID character
+[error] Not a valid command: clear (similar: clearCaches, client, last)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: clear (similar: clean, cleanIvy, compileEarly)
+[error] clear()
+[error]      ^
+[debug] > Exec(idea-shell, None, None)

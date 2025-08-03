@@ -1,0 +1,138 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download, resolveSourceClassifiers, insertProjectTransitiveDependencies" ;preferScala2;*/*:dumpStructureTo C:/Users/guptas76/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 62535, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_431)
+[debug] Load.defaultLoad until apply took 1.2237ms
+[debug]           Load.loadUnit: plugins took 26.268501ms
+[debug]           Load.loadUnit: defsScala took 0.003599ms
+[debug] [Loading] Scanning directory C:\IJ\kafka-scala-project\project
+[debug]             Load.loadUnit: mkEval took 0.3273ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\IJ\kafka-scala-project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.7742 ms
+[info] loading settings for project kafka-scala-project-build from assembly.sbt,plugins.sbt,idea3.sbt ...
+[debug]               Load.resolveProject(kafka-scala-project-build) took 3.3024ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id kafka-scala-project-build, base: C:\IJ\kafka-scala-project\project, plugins: List(<none>))) took 5.6503ms
+[debug] [Loading] Done in C:\IJ\kafka-scala-project\project, returning: (kafka-scala-project-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 55.762599ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.8531ms
+[debug]         Load.loadUnit(file:/C:/IJ/kafka-scala-project/project/, ...) took 84.639899ms
+[debug]       Load.apply: load took 85.6789ms
+[debug]       Load.apply: resolveProjects took 0.1023ms
+[debug]       Load.apply: finalTransforms took 5.2131ms
+[debug]       Load.apply: config.delegates took 0.414201ms
+[debug]       Load.apply: Def.make(settings)... took 58.7543ms
+[debug]       Load.apply: structureIndex took 24.890499ms
+[debug]       Load.apply: mkStreams took 0.006099ms
+[info] loading project definition from C:\IJ\kafka-scala-project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 727.666299ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\IJ\kafka-scala-project
+[debug]       Load.loadUnit: mkEval took 0.2969ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.796001 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 27.9006ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\IJ\kafka-scala-project, plugins: List(<none>))) took 31.3667ms
+[debug] [Loading] Done in C:\IJ\kafka-scala-project, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 149.824501ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.5726ms
+[debug]   Load.loadUnit(file:/C:/IJ/kafka-scala-project/, ...) took 880.6097ms
+[debug] Load.apply: load took 881.8233ms
+[debug] Load.apply: resolveProjects took 0.0991ms
+[debug] Load.apply: finalTransforms took 18.014901ms
+[debug] Load.apply: config.delegates took 1.3738ms
+[debug] Load.apply: Def.make(settings)... took 79.521ms
+[debug] Load.apply: structureIndex took 23.2765ms
+[debug] Load.apply: mkStreams took 0.004ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to FlinkKafkaApp (in build file:/C:/IJ/kafka-scala-project/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download, resolveSourceClassifiers, insertProjectTransitiveDependencies", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to FlinkKafkaApp (in build file:/C:/IJ/kafka-scala-project/)
+[debug] > Exec(preferScala2, None, None)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/guptas76/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] downloading https://artifactory.internal.cba/maven-central/com/addthis/common/build/maven/pom/jar-pom/3.8.0/jar-pom-3.8.0.pom
+[info] downloaded https://artifactory.internal.cba/maven-central/com/addthis/common/build/maven/pom/jar-pom/3.8.0/jar-pom-3.8.0.pom
+[info] downloading https://artifactory.internal.cba/maven-central/com/addthis/common/build/maven/pom/papa-pom/2.2.0/papa-pom-2.2.0.pom
+[info] downloaded https://artifactory.internal.cba/maven-central/com/addthis/common/build/maven/pom/papa-pom/2.2.0/papa-pom-2.2.0.pom
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] downloading https://artifactory.internal.cba/maven-central/org/ow2/asm/asm/7.0/asm-7.0-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/apache/ant/ant/1.9.9/ant-1.9.9-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/ow2/asm/asm-analysis/7.0/asm-analysis-7.0-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/com/clearspring/analytics/stream/2.9.6/stream-2.9.6-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/ow2/asm/asm/7.0/asm-7.0-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/javax/inject/javax.inject/1/javax.inject-1-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/javax/inject/javax.inject/1/javax.inject-1-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/ow2/asm/asm-commons/7.0/asm-commons-7.0-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-sources.jar
+[info] downloading https://artifactory.internal.cba/scalasbt/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.14.9/srcs/sbt-assembly-sources.jar
+[info] downloaded https://artifactory.internal.cba/scalasbt/com.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.14.9/srcs/sbt-assembly-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/ow2/asm/asm-commons/7.0/asm-commons-7.0-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/ow2/asm/asm-tree/7.0/asm-tree-7.0-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+[info] downloading https://artifactory.internal.cba/maven-central/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/ow2/asm/asm-tree/7.0/asm-tree-7.0-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/com/clearspring/analytics/stream/2.9.6/stream-2.9.6-sources.jar
+[info] downloaded https://artifactory.internal.cba/maven-central/org/apache/ant/ant/1.9.9/ant-1.9.9-sources.jar
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] Writing structure to C:\Users\guptas76\AppData\Local\Temp\sbt-structure.xml...
+[info] Done.
+[success] Total time: 37 s, completed 9 Jan, 2025 6:55:37 PM
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to FlinkKafkaApp (in build file:/C:/IJ/kafka-scala-project/)
+[debug] > Exec(set ideaPort in Global := 62535, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to FlinkKafkaApp (in build file:/C:/IJ/kafka-scala-project/)
+[debug] > Exec(idea-shell, None, None)

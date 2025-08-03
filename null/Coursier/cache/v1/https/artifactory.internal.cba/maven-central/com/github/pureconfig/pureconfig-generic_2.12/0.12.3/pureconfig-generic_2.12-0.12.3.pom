@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.pureconfig</groupId>
+    <artifactId>pureconfig-generic_2.12</artifactId>
+    <packaging>bundle</packaging>
+    <description>pureconfig-generic</description>
+    <url>https://github.com/pureconfig/pureconfig</url>
+    <version>0.12.3</version>
+    <licenses>
+        <license>
+            <name>Mozilla Public License, version 2.0</name>
+            <url>https://www.mozilla.org/MPL/2.0/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>pureconfig-generic</name>
+    <organization>
+        <name>com.github.pureconfig</name>
+        <url>https://github.com/pureconfig/pureconfig</url>
+    </organization>
+    <scm>
+        <url>https://github.com/pureconfig/pureconfig</url>
+        <connection>scm:git:https://github.com/pureconfig/pureconfig.git</connection>
+        <developerConnection>scm:git:git@github.com:pureconfig/pureconfig.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>melrief</id>
+            <name>Mario Pastorelli</name>
+            <url>https://github.com/melrief</url>
+            <email>pastorelli.mario@gmail.com</email>
+        </developer>
+        <developer>
+            <id>leifwickland</id>
+            <name>Leif Wickland</name>
+            <url>https://github.com/leifwickland</url>
+            <email>leifwickland@gmail.com</email>
+        </developer>
+        <developer>
+            <id>jcazevedo</id>
+            <name>Joao Azevedo</name>
+            <url>https://github.com/jcazevedo</url>
+            <email>joao.c.azevedo@gmail.com</email>
+        </developer>
+        <developer>
+            <id>ruippeixotog</id>
+            <name>Rui Gonçalves</name>
+            <url>https://github.com/ruippeixotog</url>
+            <email>ruippeixotog@gmail.com</email>
+        </developer>
+        <developer>
+            <id>derekmorr</id>
+            <name>Derek Morr</name>
+            <url>https://github.com/derekmorr</url>
+            <email>morr.derek@gmail.com</email>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pureconfig</groupId>
+            <artifactId>pureconfig-core_2.12</artifactId>
+            <version>0.12.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pureconfig</groupId>
+            <artifactId>pureconfig-generic-base_2.12</artifactId>
+            <version>0.12.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.12.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.chuusai</groupId>
+            <artifactId>shapeless_2.12</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+    </dependencies>
+</project>

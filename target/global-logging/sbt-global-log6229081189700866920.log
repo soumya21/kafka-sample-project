@@ -1,0 +1,37 @@
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_431)
+[debug]       Load.defaultLoad until apply took 1.387ms
+[debug]                 Load.loadUnit: plugins took 26.1208ms
+[debug]                 Load.loadUnit: defsScala took 0.0078ms
+[debug] [Loading] Scanning directory C:\IJ\kafka-scala-project\project
+[debug]                   Load.loadUnit: mkEval took 0.4553ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\IJ\kafka-scala-project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.641299 ms
+[info] loading settings for project kafka-scala-project-build from assembly.sbt,plugins.sbt,idea6.sbt ...
+[debug]                     Load.resolveProject(kafka-scala-project-build) took 1.7905ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id kafka-scala-project-build, base: C:\IJ\kafka-scala-project\project, plugins: List(<none>))) took 4.086599ms
+[debug] [Loading] Done in C:\IJ\kafka-scala-project\project, returning: (kafka-scala-project-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 54.6506ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 1.672799ms
+[debug]               Load.loadUnit(file:/C:/IJ/kafka-scala-project/project/, ...) took 83.4033ms
+[debug]             Load.apply: load took 84.555799ms
+[debug]             Load.apply: resolveProjects took 0.1255ms
+[debug]             Load.apply: finalTransforms took 19.024ms
+[debug]             Load.apply: config.delegates took 0.4885ms
+[debug]             Load.apply: Def.make(settings)... took 131.6519ms
+[debug]             Load.apply: structureIndex took 35.160099ms
+[debug]             Load.apply: mkStreams took 0.005501ms
+[info] loading project definition from C:\IJ\kafka-scala-project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Canceling execution...
+[error] Cancelled: loadp
+[error] Cancelled: loadp
+[error] Use 'last' for the full log.
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

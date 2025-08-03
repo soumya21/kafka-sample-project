@@ -1,0 +1,47 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\IJ\kafka-scala-project\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	FlinkMSKConsumer$.class
+[debug] 	SimpleKafkaConsumer.class
+[debug] 	KafkaFlinkConsumer$$anon$3.class
+[debug] 	SimpleKafkaProducer$delayedInit$body.class
+[debug] 	KafkaFlinkConsumer$$anon$3$$anon$4.class
+[debug] 	Record1.class
+[debug] 	SimpleFlinkConsumer.class
+[debug] 	SimpleFlinkConsumer$.class
+[debug] 	Record.class
+[debug] 	KeyValueDeserializer$$anon$7.class
+[debug] 	SimpleKafkaConsumer$.class
+[debug] 	KeyValueDeserializer1$$anon$7.class
+[debug] 	Record$.class
+[debug] 	KafkaFlinkConsumer$$anon$1$$anon$2.class
+[debug] 	FlinkMSKConsumer$$anon$5$$anon$6.class
+[debug] 	FlinkMSKConsumer$$anon$3.class
+[debug] 	KeyValueDeserializer$$anon$7$$anon$8.class
+[debug] 	FlinkMSKConsumer$$anon$3$$anon$4.class
+[debug] 	KafkaFlinkConsumer$.class
+[debug] 	Main.class
+[debug] 	KeyValueDeserializer1.class
+[debug] 	KafkaFlinkConsumer.class
+[debug] 	ProcessedData.class
+[debug] 	SimpleKafkaProducer.class
+[debug] 	ProducerWithJson$delayedInit$body.class
+[debug] 	ProcessedData1.class
+[debug] 	FlinkMSKConsumer$$anon$1.class
+[debug] 	Main$.class
+[debug] 	ProcessedData$.class
+[debug] 	KafkaFlinkConsumer$$anon$5.class
+[debug] 	ProducerWithJson.class
+[debug] 	KafkaFlinkConsumer$$anon$1.class
+[debug] 	KeyValueDeserializer.class
+[debug] 	KafkaFlinkConsumer$$anon$5$$anon$6.class
+[debug] 	KeyValueDeserializer1$$anon$7$$anon$8.class
+[debug] 	FlinkMSKConsumer.class
+[debug] 	SimpleKafkaProducer$.class
+[debug] 	ProducerWithJson$.class
+[debug] 	FlinkMSKConsumer$$anon$5.class
+[debug] 	ProcessedData1$.class
+[debug] 	Record1$.class
+[debug] 	FlinkMSKConsumer$$anon$1$$anon$2.class
+[debug] Removing the temporary directory used for backing up class files: C:\IJ\kafka-scala-project\target\scala-2.12\classes.bak
