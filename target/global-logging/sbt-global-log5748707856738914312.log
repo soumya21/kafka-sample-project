@@ -1,8 +1,0 @@
-[debug] > Exec(clr, None, None)
-[error] Not a valid command: clr (similar: client)
-[error] Not a valid project ID: clr
-[error] Expected ':'
-[error] Not a valid key: clr (similar: clean, run, compilers)
-[error] clr
-[error]    ^
-[debug] > Exec(idea-shell, None, None)
