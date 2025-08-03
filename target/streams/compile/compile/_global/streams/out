@@ -1,0 +1,4 @@
+[debug] Acquiring lock on file C:\IJ\kafka-scala-project\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[warn] there were two deprecation warnings; re-run with -deprecation for details
+[warn] one warning found
+[debug] Releasing lock on file C:\IJ\kafka-scala-project\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
